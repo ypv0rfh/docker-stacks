@@ -9,9 +9,9 @@ import stat
 
 c = get_config()  # noqa: F821
 #c.NotebookApp.ip = "0.0.0.0" # changed to all ip addresses to be compatible with gcp
-c.NotebookApp.ip = "*"
+c.NotebookApp.ip = '*'
 c.NotebookApp.allow_origin = '*'
-c.NotebookApp.port = 8888
+c.NotebookApp.port = '*' #8888
 c.NotebookApp.open_browser = False
 c.NotebookApp.token = ''
 c.NotebookApp.password = ''
